@@ -25,19 +25,15 @@ theme:
 extra:
   generator: false
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/sthagen/hyperkuutio
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/hyperkuutio
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/shagen/hyperkuutio
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/shage
 
 copyright: Copyright &copy; 2022 Stefan Hagen under the MIT license
 
-repo_name: sthagen/hyperkuutio
-repo_url: https://github.com/sthagen/hyperkuutio
+repo_name: ~sthagen/hyperkuutio
+repo_url: https://git.sr.ht/~sthagen/hyperkuutio
 edit_uri: ""
 
 plugins:
