@@ -3,6 +3,9 @@ site_description: "Hypercube (Finnish: hyperkuutio) tool that scratches some itc
 
 theme:
   name: 'material'
+  features:
+    - navigation.expand
+    - toc.integrate
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
