@@ -1,0 +1,9 @@
+---
+packages:
+- click
+- et-xmlfile
+- numpy
+- python-dateutil
+- pytz
+- six
+- typing-extensions
