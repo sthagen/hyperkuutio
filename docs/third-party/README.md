@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/sbom.json) with SHA256 checksum ([b19020de ...](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/sbom.json.sha256 "sha256:b19020de469ac98585f38c48e52f05d48d8c56c86a416dcd60140ce2edfc8d26")).
-<!--[[[end]]] (checksum: ba3d80b9aea49af5611dfae386cd55ad)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/sbom.json) with SHA256 checksum ([ced4542d ...](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/sbom.json.sha256 "sha256:ced4542d8e76fbd92333b426342f5e0797bb78ae105e70c0df55bb9efbfa8052")).
+<!--[[[end]]] (checksum: d570c43ba622e3e6fee91ae1a8438e90)-->
 ## Licenses
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -14,9 +14,9 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 |:-------------------------------------------------|:----------------------------------------------------|:------------|:----------------------------|:------------------------------------------------------------------------|
 | [openpyxl](https://openpyxl.readthedocs.io)      | [3.0.10](https://pypi.org/project/openpyxl/3.0.10/) | MIT License | See AUTHORS                 | A Python library to read/write Excel 2010 xlsx/xlsm files               |
 | [pandas](https://pandas.pydata.org)              | [1.5.2](https://pypi.org/project/pandas/1.5.2/)     | BSD License | The Pandas Development Team | Powerful data structures for data analysis, time series, and statistics |
-| [pydantic](https://github.com/pydantic/pydantic) | [1.10.2](https://pypi.org/project/pydantic/1.10.2/) | MIT License | Samuel Colvin               | Data validation and settings management using python type hints         |
+| [pydantic](https://github.com/pydantic/pydantic) | [1.10.3](https://pypi.org/project/pydantic/1.10.3/) | MIT License | Samuel Colvin               | Data validation and settings management using python type hints         |
 | [typer](https://github.com/tiangolo/typer)       | [0.7.0](https://pypi.org/project/typer/0.7.0/)      | MIT License | Sebastián Ramírez           | Typer, build great CLIs. Easy to code. Based on Python type hints.      |
-<!--[[[end]]] (checksum: a9410384a157aa2b6e668ce6c64d187d)-->
+<!--[[[end]]] (checksum: 04bc675ffb8a5791e9933a8ec9e5aa0c)-->
 
 ### Indirect Dependencies
 
@@ -52,9 +52,9 @@ pandas==1.5.2
   - python-dateutil [required: >=2.8.1, installed: 2.8.2]
     - six [required: >=1.5, installed: 1.16.0]
   - pytz [required: >=2020.1, installed: 2022.7]
-pydantic==1.10.2
+pydantic==1.10.3
   - typing-extensions [required: >=4.1.0, installed: 4.4.0]
 typer==0.7.0
   - click [required: >=7.1.1,<9.0.0, installed: 8.1.3]
 ````
-<!--[[[end]]] (checksum: e1db8ad8dcdb167c8154790c62b9b630)-->
+<!--[[[end]]] (checksum: 548e601bfadac3b261a26bdc245d24d8)-->
