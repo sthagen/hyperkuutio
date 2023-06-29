@@ -1,6 +1,6 @@
 openpyxl==3.1.2
 └── et-xmlfile [required: Any, installed: 1.1.0]
-pandas==2.0.2
+pandas==2.0.3
 ├── numpy [required: >=1.21.0, installed: 1.24.0]
 ├── python-dateutil [required: >=2.8.2, installed: 2.8.2]
 │   └── six [required: >=1.5, installed: 1.16.0]
