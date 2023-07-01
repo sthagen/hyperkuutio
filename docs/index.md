@@ -11,6 +11,7 @@ Third party dependencies are documented in the folder [third-party](third-party/
 [![wheel](https://img.shields.io/pypi/wheel/hyperkuutio.svg?style=flat)](https://pypi.python.org/pypi/hyperkuutio/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/hyperkuutio.svg?style=flat)](https://pypi.python.org/pypi/hyperkuutio/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/hyperkuutio.svg?style=flat)](https://pypi.python.org/pypi/hyperkuutio/)
+[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/hyperkuutio.svg?style=flat)](https://git.sr.ht/~sthagen/hyperkuutio/log)
 
 ## Bug Tracker
 
