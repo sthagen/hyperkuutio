@@ -13,7 +13,7 @@ digraph {
 	pandas -> tzdata [label=">=2022.1"]
 	pandas [label="pandas\n2.0.3"]
 	pydantic -> "typing-extensions" [label=">=4.2.0"]
-	pydantic [label="pydantic\n1.10.9"]
+	pydantic [label="pydantic\n1.10.10"]
 	pytz [label="pytz\n2022.7"]
 	six [label="six\n1.16.0"]
 	typer -> "typing-extensions" [label=">=3.7.4.3"]
