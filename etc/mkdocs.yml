@@ -1,5 +1,7 @@
 site_name: Hyperkuutio
 site_description: "Hypercube (Finnish: hyperkuutio) tool that scratches some itch."
+docs_dir: ../docs
+site_dir: ../site
 
 theme:
   name: 'material'
