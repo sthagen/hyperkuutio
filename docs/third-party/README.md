@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/sbom/cdx.json) with SHA256 checksum ([e88a081c ...](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/sbom/cdx.json.sha256 "sha256:e88a081c0d3b4a5895a3299f8cc3e711b9e0fffecb0cc8584843dbab76c04ff6")).
-<!--[[[end]]] (checksum: 75cf926d502adafc04fc13d5068a73f7)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/sbom/cdx.json) with SHA256 checksum ([574ca4b5 ...](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/sbom/cdx.json.sha256 "sha256:574ca4b5fe59962f0e6398cd9172aa9ca6e2c5c31b35f6ced73e37057c273e8d")).
+<!--[[[end]]] (checksum: 0ad0cc9bea24341ccf1830322c79ac01)-->
 ## Licenses
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -10,13 +10,13 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 ### Direct Dependencies
 
 <!--[[[fill direct_dependencies_table()]]]-->
-| Name                                             | Version                                               | License     | Author                                              | Description (from packaging data)                                       |
-|:-------------------------------------------------|:------------------------------------------------------|:------------|:----------------------------------------------------|:------------------------------------------------------------------------|
-| [openpyxl](https://openpyxl.readthedocs.io)      | [3.1.2](https://pypi.org/project/openpyxl/3.1.2/)     | MIT License | See AUTHORS                                         | A Python library to read/write Excel 2010 xlsx/xlsm files               |
-| [pandas](https://pandas.pydata.org)              | [2.0.3](https://pypi.org/project/pandas/2.0.3/)       | BSD License | The Pandas Development Team <pandas-dev@python.org> | Powerful data structures for data analysis, time series, and statistics |
-| [pydantic](https://github.com/pydantic/pydantic) | [1.10.10](https://pypi.org/project/pydantic/1.10.10/) | MIT License | Samuel Colvin                                       | Data validation and settings management using python type hints         |
-| [typer](https://github.com/tiangolo/typer)       | [0.9.0](https://pypi.org/project/typer/0.9.0/)        | MIT License | Sebastián Ramírez                                   | Typer, build great CLIs. Easy to code. Based on Python type hints.      |
-<!--[[[end]]] (checksum: ae66a9d391c62d5a4659ca903aa87243)-->
+| Name                                             | Version                                           | License     | Author                                                                                                                                                                                                                                                        | Description (from packaging data)                                       |
+|:-------------------------------------------------|:--------------------------------------------------|:------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
+| [openpyxl](https://openpyxl.readthedocs.io)      | [3.1.2](https://pypi.org/project/openpyxl/3.1.2/) | MIT License | See AUTHORS                                                                                                                                                                                                                                                   | A Python library to read/write Excel 2010 xlsx/xlsm files               |
+| [pandas](https://pandas.pydata.org)              | [2.0.3](https://pypi.org/project/pandas/2.0.3/)   | BSD License | The Pandas Development Team <pandas-dev@python.org>                                                                                                                                                                                                           | Powerful data structures for data analysis, time series, and statistics |
+| [pydantic](https://github.com/pydantic/pydantic) | [2.2.0](https://pypi.org/project/pydantic/2.2.0/) | MIT License | Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev> | Data validation using Python type hints                                 |
+| [typer](https://github.com/tiangolo/typer)       | [0.9.0](https://pypi.org/project/typer/0.9.0/)    | MIT License | Sebastián Ramírez                                                                                                                                                                                                                                             | Typer, build great CLIs. Easy to code. Based on Python type hints.      |
+<!--[[[end]]] (checksum: 2402ddb0ab30134e55459ef9fe1de817)-->
 
 ### Indirect Dependencies
 
@@ -54,10 +54,13 @@ pandas==2.0.3
 │   └── six [required: >=1.5, installed: 1.16.0]
 ├── pytz [required: >=2020.1, installed: 2023.3]
 └── tzdata [required: >=2022.1, installed: 2023.3]
-pydantic==1.10.10
-└── typing-extensions [required: >=4.2.0, installed: 4.7.1]
+pydantic==2.2.0
+├── annotated-types [required: >=0.4.0, installed: 0.5.0]
+├── pydantic-core [required: ==2.6.0, installed: 2.6.0]
+│   └── typing-extensions [required: >=4.6.0,!=4.7.0, installed: 4.7.1]
+└── typing-extensions [required: >=4.6.1, installed: 4.7.1]
 typer==0.9.0
 ├── click [required: >=7.1.1,<9.0.0, installed: 8.1.5]
 └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 ````
-<!--[[[end]]] (checksum: 9fc1e9a720881bb8b0fcf74706360dfd)-->
+<!--[[[end]]] (checksum: 146ed975ead97d0845266731622068d6)-->
