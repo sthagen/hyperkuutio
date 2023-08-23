@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([cf300e8a ...](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json.sha256 "sha256:cf300e8a0a7facdc609bd85b86084c0649faa399d551081f80d7452054319b37")).
-<!--[[[end]]] (checksum: 3502614a6a0cd0bad8e98fc25d99d76c)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([cb73d3e9 ...](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json.sha256 "sha256:cb73d3e9b3e5db2be0006fcac49690fa761f79b6d64628a23f23414a03b4c509")).
+<!--[[[end]]] (checksum: 049488557903011f4a3a493c8ecd464f)-->
 ## Licenses
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -14,9 +14,9 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 |:-------------------------------------------------|:--------------------------------------------------|:------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
 | [openpyxl](https://openpyxl.readthedocs.io)      | [3.1.2](https://pypi.org/project/openpyxl/3.1.2/) | MIT License | See AUTHORS                                                                                                                                                                                                                                                   | A Python library to read/write Excel 2010 xlsx/xlsm files               |
 | [pandas](https://pandas.pydata.org)              | [2.0.3](https://pypi.org/project/pandas/2.0.3/)   | BSD License | The Pandas Development Team <pandas-dev@python.org>                                                                                                                                                                                                           | Powerful data structures for data analysis, time series, and statistics |
-| [pydantic](https://github.com/pydantic/pydantic) | [2.2.1](https://pypi.org/project/pydantic/2.2.1/) | MIT License | Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev> | Data validation using Python type hints                                 |
+| [pydantic](https://github.com/pydantic/pydantic) | [2.3.0](https://pypi.org/project/pydantic/2.3.0/) | MIT License | Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev> | Data validation using Python type hints                                 |
 | [typer](https://github.com/tiangolo/typer)       | [0.9.0](https://pypi.org/project/typer/0.9.0/)    | MIT License | Sebastián Ramírez                                                                                                                                                                                                                                             | Typer, build great CLIs. Easy to code. Based on Python type hints.      |
-<!--[[[end]]] (checksum: 64ce49e368d47b3ef51de7b40154ddb0)-->
+<!--[[[end]]] (checksum: 6f0285598773b26b0deb7bc19f7c535b)-->
 
 ### Indirect Dependencies
 
@@ -54,13 +54,13 @@ pandas==2.0.3
 │   └── six [required: >=1.5, installed: 1.16.0]
 ├── pytz [required: >=2020.1, installed: 2023.3]
 └── tzdata [required: >=2022.1, installed: 2023.3]
-pydantic==2.2.1
+pydantic==2.3.0
 ├── annotated-types [required: >=0.4.0, installed: 0.5.0]
-├── pydantic-core [required: ==2.6.1, installed: 2.6.1]
+├── pydantic-core [required: ==2.6.3, installed: 2.6.3]
 │   └── typing-extensions [required: >=4.6.0,!=4.7.0, installed: 4.7.1]
 └── typing-extensions [required: >=4.6.1, installed: 4.7.1]
 typer==0.9.0
 ├── click [required: >=7.1.1,<9.0.0, installed: 8.1.5]
 └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 ````
-<!--[[[end]]] (checksum: 393ad2900d6c193e6d83cb97f979d053)-->
+<!--[[[end]]] (checksum: 9a23bc2efc995bae243f88bfe6f0a244)-->
