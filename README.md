@@ -7,7 +7,7 @@ Hypercube (Finnish: hyperkuutio) tool that scratches some itch.
 Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
 
 [![version](https://img.shields.io/pypi/v/hyperkuutio.svg?style=flat)](https://pypi.python.org/pypi/hyperkuutio/)
-[![downloads](https://pepy.tech/badge/hyperkuutio/month)](https://pepy.tech/project/hyperkuutio)
+[![downloads](https://static.pepy.tech/badge/hyperkuutio/month)](https://pepy.tech/project/hyperkuutio)
 [![wheel](https://img.shields.io/pypi/wheel/hyperkuutio.svg?style=flat)](https://pypi.python.org/pypi/hyperkuutio/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/hyperkuutio.svg?style=flat)](https://pypi.python.org/pypi/hyperkuutio/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/hyperkuutio.svg?style=flat)](https://pypi.python.org/pypi/hyperkuutio/)
