@@ -17,14 +17,14 @@
     {
         "key": "pandas",
         "package_name": "pandas",
-        "installed_version": "2.0.3",
-        "required_version": "2.0.3",
+        "installed_version": "2.1.0",
+        "required_version": "2.1.0",
         "dependencies": [
             {
                 "key": "numpy",
                 "package_name": "numpy",
                 "installed_version": "1.25.1",
-                "required_version": ">=1.21.0",
+                "required_version": ">=1.22.4",
                 "dependencies": []
             },
             {

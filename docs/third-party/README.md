@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([cb73d3e9 ...](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json.sha256 "sha256:cb73d3e9b3e5db2be0006fcac49690fa761f79b6d64628a23f23414a03b4c509")).
-<!--[[[end]]] (checksum: 049488557903011f4a3a493c8ecd464f)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([ee95072f ...](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json.sha256 "sha256:ee95072f1b0f127acccd0b2bc2ac3b11763a5012990fdc2742221a1e4ed099a5")).
+<!--[[[end]]] (checksum: 86585b1ab661c5df212696bbdb015164)-->
 ## Licenses
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -13,10 +13,10 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | Name                                             | Version                                           | License     | Author                                                                                                                                                                                                                                                        | Description (from packaging data)                                       |
 |:-------------------------------------------------|:--------------------------------------------------|:------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
 | [openpyxl](https://openpyxl.readthedocs.io)      | [3.1.2](https://pypi.org/project/openpyxl/3.1.2/) | MIT License | See AUTHORS                                                                                                                                                                                                                                                   | A Python library to read/write Excel 2010 xlsx/xlsm files               |
-| [pandas](https://pandas.pydata.org)              | [2.0.3](https://pypi.org/project/pandas/2.0.3/)   | BSD License | The Pandas Development Team <pandas-dev@python.org>                                                                                                                                                                                                           | Powerful data structures for data analysis, time series, and statistics |
+| [pandas](https://pandas.pydata.org)              | [2.1.0](https://pypi.org/project/pandas/2.1.0/)   | BSD License | The Pandas Development Team <pandas-dev@python.org>                                                                                                                                                                                                           | Powerful data structures for data analysis, time series, and statistics |
 | [pydantic](https://github.com/pydantic/pydantic) | [2.3.0](https://pypi.org/project/pydantic/2.3.0/) | MIT License | Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev> | Data validation using Python type hints                                 |
 | [typer](https://github.com/tiangolo/typer)       | [0.9.0](https://pypi.org/project/typer/0.9.0/)    | MIT License | Sebastián Ramírez                                                                                                                                                                                                                                             | Typer, build great CLIs. Easy to code. Based on Python type hints.      |
-<!--[[[end]]] (checksum: 6f0285598773b26b0deb7bc19f7c535b)-->
+<!--[[[end]]] (checksum: e50d58f3b1f717b0b58d9ea95f3115fb)-->
 
 ### Indirect Dependencies
 
@@ -48,8 +48,8 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 ````console
 openpyxl==3.1.2
 └── et-xmlfile [required: Any, installed: 1.1.0]
-pandas==2.0.3
-├── numpy [required: >=1.21.0, installed: 1.25.1]
+pandas==2.1.0
+├── numpy [required: >=1.22.4, installed: 1.25.1]
 ├── python-dateutil [required: >=2.8.2, installed: 2.8.2]
 │   └── six [required: >=1.5, installed: 1.16.0]
 ├── pytz [required: >=2020.1, installed: 2023.3]
@@ -63,4 +63,4 @@ typer==0.9.0
 ├── click [required: >=7.1.1,<9.0.0, installed: 8.1.5]
 └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 ````
-<!--[[[end]]] (checksum: 9a23bc2efc995bae243f88bfe6f0a244)-->
+<!--[[[end]]] (checksum: ca98dac12571b5e5a073c36bc8b23a71)-->
