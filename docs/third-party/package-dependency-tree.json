@@ -17,8 +17,8 @@
     {
         "key": "pandas",
         "package_name": "pandas",
-        "installed_version": "2.1.0",
-        "required_version": "2.1.0",
+        "installed_version": "2.1.1",
+        "required_version": "2.1.1",
         "dependencies": [
             {
                 "key": "numpy",

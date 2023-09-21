@@ -14,7 +14,7 @@ digraph {
 	pandas -> numpy [label=">=1.22.4"]
 	pandas -> pytz [label=">=2020.1"]
 	pandas -> tzdata [label=">=2022.1"]
-	pandas [label="pandas\n2.1.0"]
+	pandas [label="pandas\n2.1.1"]
 	pydantic -> "annotated-types" [label=">=0.4.0"]
 	pydantic -> "pydantic-core" [label="==2.6.3"]
 	pydantic -> "typing-extensions" [label=">=4.6.1"]
