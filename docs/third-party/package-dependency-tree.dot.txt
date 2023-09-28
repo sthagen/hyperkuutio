@@ -18,7 +18,7 @@ digraph {
 	pydantic -> "annotated-types" [label=">=0.4.0"]
 	pydantic -> "pydantic-core" [label="==2.10.1"]
 	pydantic -> "typing-extensions" [label=">=4.6.1"]
-	pydantic [label="pydantic\n2.4.1"]
+	pydantic [label="pydantic\n2.4.2"]
 	pytz [label="pytz\n2023.3"]
 	six [label="six\n1.16.0"]
 	typer -> "typing-extensions" [label=">=3.7.4.3"]
