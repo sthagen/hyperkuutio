@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([f972c1d3 ...](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json.sha256 "sha256:f972c1d33dc251478526d4f33fccd42bb3eded2838a708b22ce2ca6c425ff834")).
-<!--[[[end]]] (checksum: 2a62f9f1a222922b5568055eb7567afc)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([11656ec3 ...](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json.sha256 "sha256:11656ec372e4b870a54b93f77acb24d99d66f020c1a7c76808677628c9cde203")).
+<!--[[[end]]] (checksum: 28eca829ac920aa22316da7b5cf80ddf)-->
 ## Licenses
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -23,14 +23,14 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 <!--[[[fill indirect_dependencies_table()]]]-->
 | Name                                                             | Version                                                    | License                              | Author                                                                                | Description (from packaging data)                          |
 |:-----------------------------------------------------------------|:-----------------------------------------------------------|:-------------------------------------|:--------------------------------------------------------------------------------------|:-----------------------------------------------------------|
-| [click](https://palletsprojects.com/p/click/)                    | [8.1.5](https://pypi.org/project/click/8.1.5/)             | BSD License                          | UNKNOWN                                                                               | Composable command line interface toolkit                  |
+| [click](https://palletsprojects.com/p/click/)                    | [8.1.5](https://pypi.org/project/click/8.1.5/)             | BSD License                          | Pallets <contact@palletsprojects.com>                                                 | Composable command line interface toolkit                  |
 | [et-xmlfile](https://foss.heptapod.net/openpyxl/et_xmlfile)      | [1.1.0](https://pypi.org/project/et-xmlfile/1.1.0/)        | MIT License                          | See ATUHORS.txt                                                                       | An implementation of lxml.xmlfile for the standard library |
 | [numpy](https://www.numpy.org)                                   | [1.25.1](https://pypi.org/project/numpy/1.25.1/)           | BSD License                          | Travis E. Oliphant et al.                                                             | Fundamental package for array computing in Python          |
 | [python-dateutil](https://github.com/dateutil/dateutil)          | [2.8.2](https://pypi.org/project/python-dateutil/2.8.2/)   | Apache Software License; BSD License | Gustavo Niemeyer                                                                      | Extensions to the standard Python datetime module          |
 | [pytz](http://pythonhosted.org/pytz)                             | [2023.3](https://pypi.org/project/pytz/2023.3/)            | MIT License                          | Stuart Bishop                                                                         | World timezone definitions, modern and historical          |
 | [six](https://github.com/benjaminp/six)                          | [1.16.0](https://pypi.org/project/six/1.16.0/)             | MIT License                          | Benjamin Peterson                                                                     | Python 2 and 3 compatibility utilities                     |
 | [typing_extensions](https://github.com/python/typing_extensions) | [4.7.1](https://pypi.org/project/typing_extensions/4.7.1/) | Python Software Foundation License   | "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com> | Backported and Experimental Type Hints for Python 3.7+     |
-<!--[[[end]]] (checksum: b8701a9768dc050704852c237039870c)-->
+<!--[[[end]]] (checksum: a5e00ef11689863f3ca4ba0475a3f260)-->
 
 ## Dependency Tree(s)
 
