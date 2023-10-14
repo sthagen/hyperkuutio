@@ -3,6 +3,7 @@
 Hypercube (Finnish: hyperkuutio) tool that scratches some itch.
 
 [License: MIT](https://git.sr.ht/~sthagen/hyperkuutio/tree/default/item/LICENSE)
+[Country of origin: Switzerland](https://git.sr.ht/~sthagen/hyperkuutio/tree/default/item/COUNTRY-OF-ORIGIN)
 
 Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
 
