@@ -34,7 +34,7 @@
 <title>pandas</title>
 <ellipse fill="none" stroke="black" cx="372.5" cy="-249.96" rx="37.83" ry="28.99"/>
 <text text-anchor="middle" x="372.5" y="-253.16" font-family="Times,serif" font-size="14.00">pandas</text>
-<text text-anchor="middle" x="372.5" y="-236.66" font-family="Times,serif" font-size="14.00">2.1.1</text>
+<text text-anchor="middle" x="372.5" y="-236.66" font-family="Times,serif" font-size="14.00">2.1.2</text>
 </g>
 <!-- numpy -->
 <g id="node4" class="node">
@@ -46,9 +46,9 @@
 <!-- pandas&#45;&gt;numpy -->
 <g id="edge2" class="edge">
 <title>pandas&#45;&gt;numpy</title>
-<path fill="none" stroke="black" d="M339.57,-235.29C318.74,-226.45 291.33,-214.49 267.5,-202.97 238.05,-188.73 231,-184.5 202.5,-168.47 200.04,-167.08 197.51,-165.64 194.97,-164.17"/>
-<polygon fill="black" stroke="black" points="196.91,-161.25 186.51,-159.23 193.38,-167.3 196.91,-161.25"/>
-<text text-anchor="middle" x="293" y="-189.67" font-family="Times,serif" font-size="14.00">&gt;=1.22.4</text>
+<path fill="none" stroke="black" d="M337.43,-238.37C312.13,-230.15 277.51,-217.69 248.75,-202.97 228.84,-192.78 208.04,-179.16 191.16,-167.25"/>
+<polygon fill="black" stroke="black" points="193.6,-164.7 183.44,-161.72 189.53,-170.39 193.6,-164.7"/>
+<text text-anchor="middle" x="284.37" y="-189.67" font-family="Times,serif" font-size="14.00">&gt;=1.22.4,&lt;2</text>
 </g>
 <!-- python&#45;dateutil -->
 <g id="node5" class="node">
