@@ -1,13 +1,13 @@
 name: hyperkuutio
 description: Hypercube (Finnish: hyperkuutio) tool that scratches some itch.
 license_spdx: MIT
-version: 2022.2.19
+version: 2023.10.29
 spec_version: 1.0
 home_url: https://git.sr.ht/~sthagen/hyperkuutio
 news_url: https://libraries.io/pypi/hyperkuutio/versions.atom
-date: 2022-02-19
+date: 2023-10-29
 about_resource: ./
-libraries_io_url: https://libraries.io/pypi/hyperkuutio?number=2022.2.19
+libraries_io_url: https://libraries.io/pypi/hyperkuutio?number=2023.10.29
 vcs_tool: git
 vcs_repository: https://git.sr.ht/~sthagen/hyperkuutio
 vcs_branch: default

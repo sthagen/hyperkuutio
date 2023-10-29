@@ -5,9 +5,9 @@
 Versions of hyperkuutio currently being supported with security updates.
 
 | Version(s)   | Supported |
-|:------------ |:--------- |
-| 2022.2.19    | yes       |
-| < 2022.2.19  | no        |
+|:-------------|:----------|
+| 2023.10.29   | yes       |
+| < 2023.10.29 | no        |
 
 ## Reporting a Vulnerability
 

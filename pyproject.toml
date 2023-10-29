@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hyperkuutio"
-version = "2022.2.19"
+version = "2023.10.29"
 description = "Hypercube (Finnish: hyperkuutio) tool that scratches some itch."
 readme = "README.md"
 authors = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]
