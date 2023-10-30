@@ -8,7 +8,7 @@ Hypercube (Finnish: hyperkuutio) tool that scratches some itch.
 [![Configuration](docs/badges/configuration-sbom.svg)](https://git.sr.ht/~sthagen/hyperkuutio/tree/default/item/docs/third-party/README.md)
 
 [![Version](https://img.shields.io/pypi/v/hyperkuutio.svg?style=flat)](https://pypi.python.org/pypi/hyperkuutio/)
-[![Downloads](https://static.pepy.tech/badge/hyperkuutio/month)](https://pepy.tech/project/hyperkuutio)
+[![Downloads](docs/badges/downloads-per-month.svg)](https://pepy.tech/project/hyperkuutio)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/hyperkuutio.svg?style=flat)](https://pypi.python.org/pypi/hyperkuutio/)
 [![Maintenance Status](docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/hyperkuutio/log)
 
