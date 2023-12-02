@@ -1,7 +1,7 @@
 {
   "hyperkuutio": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:19:08.605555",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 15:55:05 +00:00",
     "branch_coverage": true,
     "show_contexts": true,
     "covered_lines": 4,
@@ -13,6 +13,22 @@
     "num_branches": 2,
     "num_partial_branches": 0,
     "covered_branches": 2,
-    "missing_branches": 0
+    "missing_branches": 0,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 3,
+    "files": [
+      "hyperkuutio/__init__.py",
+      "hyperkuutio/cli.py",
+      "hyperkuutio/hyperkuutio.py"
+    ],
+    "blake3": "9628d7114057f14a86197136699b160fbb0f19b80757c5d597df116ccef3bb32",
+    "blake2": "824cc2abcd5f51ec7a946ae3f8bc6c3111eaaaa87bf655fb4ab6c94c72cc407113a964aa2890084290bdd8c8c276af3a56bd32ac234b39f57852589071c58259",
+    "sha512": "9d3f15a2b7b439248a40340b3763ba9da961853af6079109f0482a8745e5a3c5eebde149de7ae555c7c9fddef98f130cfdc8138a2370e8e4c3c19b6c37cdd0be",
+    "sha384": "d6534435e3e34b8832b2081e9a6d8fabf198ab5984c3628da00338edff2f5dff78ffba68eaacb5b3357f146a15fa6b48",
+    "sha256": "bcbc180337f8f8a7f5d64099c0d1a8041df6ad358264e254738efe67fde7f43e",
+    "sha1": "6bf4e29e1f03701e5e822c3fc609adf22899adf1",
+    "md5": "5db972527a1f53e49d5c54c5d126b7b6",
+    "python_version": "3.10.12",
+    "entropy": 5.039407
   }
 }
