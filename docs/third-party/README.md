@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([f31889b0 ...](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json.sha256 "sha256:f31889b09bdcac1dffc77ea503e46aac1e368cd46c8a9495bb886b9dde4761f6")).
-<!--[[[end]]] (checksum: 0bc65db75253e50077245993f4f0ee3f)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([568924e4 ...](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json.sha256 "sha256:568924e407b1ca4f7690527360b623cfa4d1a2ae431c67a24ea3b7db3673bf8f")).
+<!--[[[end]]] (checksum: a7183dff6249bf1a26019ad1a9e6bede)-->
 ## Licenses
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -13,10 +13,10 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | Name                                             | Version                                           | License     | Author                                                                                                                                                                                                                                                                                                                                                                                                                           | Description (from packaging data)                                       |
 |:-------------------------------------------------|:--------------------------------------------------|:------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
 | [openpyxl](https://openpyxl.readthedocs.io)      | [3.1.2](https://pypi.org/project/openpyxl/3.1.2/) | MIT License | See AUTHORS                                                                                                                                                                                                                                                                                                                                                                                                                      | A Python library to read/write Excel 2010 xlsx/xlsm files               |
-| [pandas](https://pandas.pydata.org)              | [2.1.3](https://pypi.org/project/pandas/2.1.3/)   | BSD License | The Pandas Development Team <pandas-dev@python.org>                                                                                                                                                                                                                                                                                                                                                                              | Powerful data structures for data analysis, time series, and statistics |
+| [pandas](https://pandas.pydata.org)              | [2.1.4](https://pypi.org/project/pandas/2.1.4/)   | BSD License | The Pandas Development Team <pandas-dev@python.org>                                                                                                                                                                                                                                                                                                                                                                              | Powerful data structures for data analysis, time series, and statistics |
 | [pydantic](https://github.com/pydantic/pydantic) | [2.5.2](https://pypi.org/project/pydantic/2.5.2/) | MIT License | Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.io> | Data validation using Python type hints                                 |
 | [typer](https://github.com/tiangolo/typer)       | [0.9.0](https://pypi.org/project/typer/0.9.0/)    | MIT License | Sebastián Ramírez                                                                                                                                                                                                                                                                                                                                                                                                                | Typer, build great CLIs. Easy to code. Based on Python type hints.      |
-<!--[[[end]]] (checksum: 2030423d02da31192c430375c9a9c508)-->
+<!--[[[end]]] (checksum: ccc3df67e8a3c752067fbf4981c5a288)-->
 
 ### Indirect Dependencies
 
@@ -48,7 +48,7 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 ````console
 openpyxl==3.1.2
 └── et-xmlfile [required: Any, installed: 1.1.0]
-pandas==2.1.3
+pandas==2.1.4
 ├── numpy [required: >=1.22.4,<2, installed: 1.25.1]
 ├── python-dateutil [required: >=2.8.2, installed: 2.8.2]
 │   └── six [required: >=1.5, installed: 1.16.0]
@@ -63,4 +63,4 @@ typer==0.9.0
 ├── click [required: >=7.1.1,<9.0.0, installed: 8.1.5]
 └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 ````
-<!--[[[end]]] (checksum: aedbb8df807efd58030e4e9f8ff9bfcd)-->
+<!--[[[end]]] (checksum: 42b9fde01b3e263d0656841e64aad610)-->
