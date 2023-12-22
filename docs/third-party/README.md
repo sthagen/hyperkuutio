@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([568924e4 ...](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json.sha256 "sha256:568924e407b1ca4f7690527360b623cfa4d1a2ae431c67a24ea3b7db3673bf8f")).
-<!--[[[end]]] (checksum: a7183dff6249bf1a26019ad1a9e6bede)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([f799a6e4 ...](https://git.sr.ht/~sthagen/hyperkuutio/blob/default/etc/sbom/cdx.json.sha256 "sha256:f799a6e492d8ee7ccf01a9d1bd883a7a07eccaea2e85d5d83b29c90c25a05460")).
+<!--[[[end]]] (checksum: ee3ec1170ee0769e6bb563bbf6423823)-->
 ## Licenses
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -14,9 +14,9 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 |:-------------------------------------------------|:--------------------------------------------------|:------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------|
 | [openpyxl](https://openpyxl.readthedocs.io)      | [3.1.2](https://pypi.org/project/openpyxl/3.1.2/) | MIT License | See AUTHORS                                                                                                                                                                                                                                                                                                                                                                                                                      | A Python library to read/write Excel 2010 xlsx/xlsm files               |
 | [pandas](https://pandas.pydata.org)              | [2.1.4](https://pypi.org/project/pandas/2.1.4/)   | BSD License | The Pandas Development Team <pandas-dev@python.org>                                                                                                                                                                                                                                                                                                                                                                              | Powerful data structures for data analysis, time series, and statistics |
-| [pydantic](https://github.com/pydantic/pydantic) | [2.5.2](https://pypi.org/project/pydantic/2.5.2/) | MIT License | Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.io> | Data validation using Python type hints                                 |
+| [pydantic](https://github.com/pydantic/pydantic) | [2.5.3](https://pypi.org/project/pydantic/2.5.3/) | MIT License | Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.io> | Data validation using Python type hints                                 |
 | [typer](https://github.com/tiangolo/typer)       | [0.9.0](https://pypi.org/project/typer/0.9.0/)    | MIT License | Sebastián Ramírez                                                                                                                                                                                                                                                                                                                                                                                                                | Typer, build great CLIs. Easy to code. Based on Python type hints.      |
-<!--[[[end]]] (checksum: ccc3df67e8a3c752067fbf4981c5a288)-->
+<!--[[[end]]] (checksum: cde3bc1c5db65f888f091648e68b9a9d)-->
 
 ### Indirect Dependencies
 
@@ -54,13 +54,13 @@ pandas==2.1.4
 │   └── six [required: >=1.5, installed: 1.16.0]
 ├── pytz [required: >=2020.1, installed: 2023.3]
 └── tzdata [required: >=2022.1, installed: 2023.3]
-pydantic==2.5.2
+pydantic==2.5.3
 ├── annotated-types [required: >=0.4.0, installed: 0.5.0]
-├── pydantic-core [required: ==2.14.5, installed: 2.14.5]
+├── pydantic-core [required: ==2.14.6, installed: 2.14.6]
 │   └── typing-extensions [required: >=4.6.0,!=4.7.0, installed: 4.7.1]
 └── typing-extensions [required: >=4.6.1, installed: 4.7.1]
 typer==0.9.0
 ├── click [required: >=7.1.1,<9.0.0, installed: 8.1.5]
 └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 ````
-<!--[[[end]]] (checksum: 42b9fde01b3e263d0656841e64aad610)-->
+<!--[[[end]]] (checksum: b6138154da2b6e1f265083bf917aed47)-->

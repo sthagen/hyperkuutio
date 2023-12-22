@@ -6,9 +6,9 @@ pandas==2.1.4
 │   └── six [required: >=1.5, installed: 1.16.0]
 ├── pytz [required: >=2020.1, installed: 2023.3]
 └── tzdata [required: >=2022.1, installed: 2023.3]
-pydantic==2.5.2
+pydantic==2.5.3
 ├── annotated-types [required: >=0.4.0, installed: 0.5.0]
-├── pydantic-core [required: ==2.14.5, installed: 2.14.5]
+├── pydantic-core [required: ==2.14.6, installed: 2.14.6]
 │   └── typing-extensions [required: >=4.6.0,!=4.7.0, installed: 4.7.1]
 └── typing-extensions [required: >=4.6.1, installed: 4.7.1]
 typer==0.9.0
