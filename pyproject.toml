@@ -7,6 +7,7 @@ name = "hyperkuutio"
 version = "2023.10.29"
 description = "Hypercube (Finnish: hyperkuutio) tool that scratches some itch."
 readme = "README.md"
+license = {file = "LICENSE"}
 authors = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]
 maintainers = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]
 classifiers = [
