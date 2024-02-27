@@ -21,6 +21,7 @@
       "last_month": -1,
       "last_week": -1
     },
+    "dynamic": null,
     "home_page": "",
     "keywords": "developer-tools,validation,verification",
     "license": "",
@@ -37,6 +38,7 @@
       "Source-Code": "https://git.sr.ht/~sthagen/hyperkuutio",
       "Test-Coverage": "https://codes.dilettant.life/coverage/hyperkuutio"
     },
+    "provides_extra": null,
     "release_url": "https://pypi.org/project/hyperkuutio/2023.10.29/",
     "requires_dist": [
       "openpyxl >=3.1.2",
